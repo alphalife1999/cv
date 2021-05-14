@@ -1,58 +1,82 @@
 body{
-    background-color: #eaf6f6;
+    margin: 0%;
 }
-#div-1{
-    display: block;
-    height: 150px;
+.p1{
+    color: #40514E;
+    font-weight: 900;
+    font-size: 25px;
 }
 h1{
-    display: block;
-    color: #94d0cc;
     font-family: 'Pacifico', cursive;
-    font-size: 3em;
+    color:#66BFBF ;
+    font-size: 60px;
 }
-p{
-    display: block;
-    color: #94d0cc;
-    font-family: 'Pacifico', cursive;
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0%;
+    color:#66BFBF ;
     font-size: 2em;
+}
+#div-1{
+    background-color:#EAF6F6;
 }
 #img-1{
     display: block;
     position: absolute;
-    left: 33%;
-    width: 34%;
-    top: 350px;
-}
-#img-2{
-    display: inline;
-    position: absolute;
     left: 40%;
-    margin-top: 40px;
+    top: 200px;
 }
 #img-3{
-    display: inline;
     position: absolute;
-    right: 38%;
+    right: 20%;
+    top: 100px;
+    margin-right: 180px;
 }
-.hr-1{
-    width: 200px;
-    list-style-type: circle;
-    overflow: visible;
-    color: #94d0cc;
+#img-4{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+hr{
     border-style: dotted none none none;
-    border-width: 20px;
-    margin-bottom: 2em;
+    width: 15%;
+    border-width: 10px;
+    border-color: #c6f8f8;
+}
+.div-2{
+    display: block;
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-bottom: 15px;
 }
 #img-5{
-    display: inline-block;
+    width: 200px;
+    float: left;
+}
+#p2{
+    color: #40514E;
+    font-size: 25px;
+    text-align: right;
+
 }
 #img-6{
-    display: block;
+    width: 150px;
+    margin-top: 10px;
+    float: right;
 }
-a{
-    display: block;
-    color: #94d0cc;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2em;
+#p3{
+    color: #40514E;
+    font-size: 30px;
+    text-align: left;
 }
+.button {
+    background-color: #6bc1c7;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
